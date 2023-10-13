@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  background: linear-gradient(to top, #FFFFFF 46%, #FFFFFF 100%);
+}
+body h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 35px 0 10px;
+  font-family: "Crimson Pro";
+}
+@media (max-width: 769px) {
+  body h1 {
+    font-size: 32px;
+    margin: 15px 0 10px;
+  }
+}
+body h1::-moz-selection {
+  background: #CCB4AE;
+  color: #FFFFFF;
+}
+body h1::selection {
+  background: #CCB4AE;
+  color: #FFFFFF;
+}
+body a {
+  color: #000;
+  font-size: 20px;
+}
+@media (max-width: 769px) {
+  body a {
+    font-size: 15px;
+  }
+}
+body a::-moz-selection {
+  background: #CCB4AE;
+  color: #FFFFFF;
+}
+body a::selection {
+  background: #CCB4AE;
+  color: #FFFFFF;
+}
+body p::-moz-selection {
+  background: #89918b;
+  color: #ffffff;
+}
+body p::selection {
+  background: #89918b;
+  color: #ffffff;
+}
+
+.ballet {
+  gap: 60px;
+  padding: 60px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media (max-width: 769px) {
+  .ballet {
+    gap: 45px;
+  }
+}
+@media (max-width: 525px) {
+  .ballet {
+    gap: 30px;
+    padding: 30px;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 375px) {
+  .ballet {
+    padding: 20px;
+  }
+}
+.ballet_sidebar {
+  width: 30%;
+  height: 100%;
+}
+@media (max-width: 525px) {
+  .ballet_sidebar {
+    width: 100%;
+  }
+}
+.ballet_sidebar p {
+  font-size: 26px;
+}
+@media (max-width: 1024px) {
+  .ballet_sidebar p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 998px) {
+  .ballet_sidebar p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 769px) {
+  .ballet_sidebar p {
+    font-size: 14px;
+  }
+}
+.ballet_sidebar button {
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  border: none;
+  margin-top: 33%;
+  font-size: 30px;
+  color: #FFFFFF;
+  font-weight: 600;
+  position: relative;
+  border-radius: 5px;
+  background: #9A8D87;
+  font-family: "Crimson Pro";
+  transition: background 0.4s ease-in-out;
+}
+@media (max-width: 1024px) {
+  .ballet_sidebar button {
+    margin-top: 28%;
+    font-size: 24px;
+    height: 75px;
+  }
+}
+@media (max-width: 769px) {
+  .ballet_sidebar button {
+    font-size: 18px;
+    margin-top: 16%;
+    height: 60px;
+  }
+}
+.ballet_sidebar button:hover {
+  background: #756763;
+  transition: 0.4s ease-in-out;
+}
+.ballet_photos p {
+  font-family: "Vivaldi";
+  letter-spacing: 40px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 54px;
+  margin: 15px 0;
+}
+@media (max-width: 768px) {
+  .ballet_photos p {
+    font-size: 26px;
+    letter-spacing: 20px;
+  }
+}
+.ballet_photos_block {
+  gap: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+@media (min-width: 525px) {
+  .ballet_photos_block {
+    gap: 15px;
+  }
+}
+.ballet_photos_block_img {
+  width: 47%;
+  height: 47%;
+}
+.ballet_photos_block_box {
+  width: 47%;
+  height: 90px;
+  border-radius: 5px;
+  background: #C2CDC5;
+}
+.ballet_photos_block_box:nth-child(2) {
+  background: #CCB4AE;
+}
