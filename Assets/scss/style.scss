@@ -47,7 +47,7 @@ body {
 
 .ballet {
     gap: 60px;
-    padding: 60px;
+    padding: 60px 60px 0;
     display: flex;
     position: relative;
     flex-direction: row;
@@ -171,4 +171,18 @@ body {
             }
         }
     }
+
+} 
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FFFFFF;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #CCB4AE;
+    border-radius: 5px;
 }
